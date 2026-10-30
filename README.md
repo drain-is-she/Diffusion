@@ -36,8 +36,8 @@ DIFFUSION/
 The published experiments were run with Python 3.13, PyTorch 2.10.0 with CUDA 12.8, and an NVIDIA RTX 2000 Ada Generation GPU (16 GB). `requirements.txt` records the package versions used. CPU execution is supported by the scripts but takes longer.
 
 ```bash
-git clone https://github.com/Vansh-A1/DIFFUSION.git
-cd DIFFUSION
+git clone https://github.com/drain-is-she/Diffusion.git
+cd Diffusion
 python3.13 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -170,6 +170,8 @@ These are small, fixed-seed experiments with one timing measurement per configur
 
 ## Project authorship
 
-I developed the core diffusion training and inference pipelines, including class-conditional image generation and DDPM/DDIM sampling workflows, as a learning and research exercise in diffusion-based generative modeling.
+A collaborative project by [Priyanshi Goyal](https://github.com/drain-is-she) and [Vansh Joshi](https://github.com/Vansh-A1).
+
+Together, we developed the core diffusion training and inference pipelines, including class-conditional image generation and DDPM/DDIM sampling workflows, as a learning and research exercise in diffusion-based generative modeling.
 
 OpenAI Codex was used as a development assistant for experiment and evaluation utilities, verification checks, documentation, and repository organization. The conditional implementation builds on PyTorch, Torchvision, and Hugging Face Diffusers.
